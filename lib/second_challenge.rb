@@ -7,7 +7,13 @@ def second_challenge
   }
 
   #code your solution here!
-
+  flattened_array = []
+  
+  groceries.each do |category, list|
+    list.each {|el| flattened_array << el}
+  end 
+  
+  flattened_array
   
 
 end
