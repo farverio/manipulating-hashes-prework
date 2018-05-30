@@ -11,7 +11,9 @@ def second_challenge
   
   groceries.each do |category, list|
     list.each {|el| flattened_array << el}
-  end
+  end 
+  
+  flattened_array
   
 
 end
